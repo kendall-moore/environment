@@ -1,0 +1,41 @@
+{
+  "name":    "<%= metadata.full_module_name %>",
+  "version": "<%= metadata.version %>",
+  "author":  "<%= metadata.author %>",
+  "summary": "<%= metadata.summary %>",
+  "license": "<%= metadata.license %>",
+  "source":  "<%= metadata.source %>",
+  "project_page": "<%= metadata.project_page %>",
+  "issues_url":   "<%= metadata.issues_url %>",
+  "tags": [ "simp" ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 4.1.0"
+    },
+    {
+      "name": "simp-iptables",
+      "version_requirement": ">= 4.1.0"
+    },
+    {
+      "name": "simp-simplib",
+      "version_requirement": ">= 4.1.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
