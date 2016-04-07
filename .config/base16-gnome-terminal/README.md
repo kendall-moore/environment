@@ -1,3 +1,8 @@
+# Giving credit
+
+All base16 colorschemes came from the following repo:
+https://github.com/chriskempson/base16-gnome-terminal
+
 # base16-gnome-terminal
 
 Base16 for Gnome Terminal
